@@ -5,8 +5,12 @@
 
 # n8n Local Setup (Docker Compose)
 
-Run **n8n** locally using Docker Compose.  
-This repository provides a simple, clean local development setup.
+## What is **n8n** ?
+
+[n8n](https://n8n.io/) is an open-source workflow automation platform that lets you connect apps, APIs, and services using visual workflows.  
+It allows you to automate tasks by combining triggers, logic, and actions — similar to tools like Zapier or Make  but with more flexibility and the option to self-host locally.  
+
+This repository provides a simple Docker Compose setup to run **n8n** locally for development and experimentation.
 
 ---
 

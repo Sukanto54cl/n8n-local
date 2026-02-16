@@ -10,7 +10,7 @@ This repository provides a simple, clean local development setup.
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure you have installed:
 
@@ -26,7 +26,7 @@ docker compose version
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```text
 n8n-local/
@@ -38,7 +38,7 @@ n8n-local/
 
 ---
 
-# Environment variables
+## Environment variables
 
 Copy the example file:
 
@@ -59,9 +59,9 @@ Do not use this setting for production.
 
 ---
 
-# Start and Run n8n
+## Start and Run n8n
 
-## Run:
+### Run:
 
 ```bash
 docker compose up -d
@@ -75,19 +75,19 @@ http://localhost:5678
 
 On first launch, create a local owner account.
 
-## Stop n8n
+### Stop n8n
 
 ```bash
 docker compose down
 ````
 
-## Restart
+### Restart
 
 ```bash
 docker compose up -d
 ````
 
-## View logs
+### View logs
 
 ```bash
 docker compose logs -f n8n
@@ -95,7 +95,7 @@ docker compose logs -f n8n
 
 ---
 
-# Data persistence
+## Data persistence
 
 All workflows and credentials are stored in a Docker volume:
 
@@ -107,7 +107,7 @@ Your data will remain even after restarting containers.
 
 ---
 
-# Timezone
+## Timezone
 
 Timezone is configured via .env:
 
@@ -120,7 +120,7 @@ Chamge if needed
 
 ---
 
-# Update n8n
+## Update n8n
 
 Pull the latest image and restart:
 
@@ -131,7 +131,7 @@ docker compose up -d
 
 ---
 
-# Remove everything (WARNING)
+## Remove everything (WARNING)
 
 This removes the container and stored data:
 
@@ -141,7 +141,7 @@ docker compose down -v
 
 ---
 
-# Common issues
+## Common issues
 
 - **Safari secure cookie warning**
 
@@ -170,7 +170,7 @@ http://localhost:5679
 
 ---
 
-# Production note
+## Production note
 
 This setup is intended for local development only.
 For production use, you should:
